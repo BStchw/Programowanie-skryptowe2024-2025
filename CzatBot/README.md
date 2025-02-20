@@ -64,3 +64,7 @@ Uruchamiając bota na slacku:
     `rasa run --enable-api --connector slack`
 
 3. Możesz korzystać z bota w aplikacji (jeśli wcześniej prawidłowo ją skonfigurowałeś).
+
+
+![chatbot](https://github.com/user-attachments/assets/a16391b2-8a46-4079-899c-50b627d92aca)
+
