@@ -1,0 +1,9 @@
+.rasa/
+models/
+cache/
+
+.vscode/
+.idea/
+
+"CzatBot/models/" 
+"CzatBot/rasa_env/" 
