@@ -1,6 +1,6 @@
 # Restaurany chatbot
 
-Jest to bot do asysty w restauracji, który wykorzystuje framework Rasa. Bot umożliwia wyświetlanie menu, sprawdzanie godzin otwarcia, składanie zamówień oraz interakcję z użytkownikiem.
+Jest to bot do asysty w restauracji, który wykorzystuje framework Rasa. Bot umożliwia wyświetlanie menu, sprawdzanie godzin otwarcia oraz składanie zamówień.
 
 
 ## Instalacja
