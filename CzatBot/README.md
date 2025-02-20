@@ -1,4 +1,4 @@
-# Restaurany chatbot
+# Restaurant chatbot
 
 Jest to bot do asysty w restauracji, który wykorzystuje framework Rasa. Bot umożliwia wyświetlanie menu, sprawdzanie godzin otwarcia oraz składanie zamówień.
 
