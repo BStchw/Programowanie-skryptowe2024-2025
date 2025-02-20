@@ -3,7 +3,7 @@
 Projekt wykorzystuje Ruby i gem nokogiri do pobierania informacji o produktach z Amazonu. Skrypt pozwala na pobieranie tytułu produktu, jego ceny, oceny oraz liczby opinii z podanego URL-a produktu.
 
 ### Wymagania
-- Ruby 3.x+
+- Ruby 3.+
 - Gems: nokogiri, open-uri, net/http
 
 ### Instalacja
