@@ -1,7 +1,7 @@
 require_relative 'amazon_category'
 require_relative 'amazon'
 
-category_url = "https://www.amazon.com/s?k=headphones&crid=1J57V157GW7D1&sprefix=headphones%2Caps%2C630&ref=nb_sb_noss_1"
+category_url = "https://www.amazon.com/s?k=laptop&crid=NXNW4F51KSQY&sprefix=l%2Caps%2C435&ref=nb_sb_ss_ts-doa-p_1_1"
 
 begin
   category = AmazonCategory.new(category_url)

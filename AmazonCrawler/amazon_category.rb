@@ -38,7 +38,11 @@ class AmazonCategory
     return [] unless @response
 
     links = @response.css("div.s-main-slot div[data-component-type='s-search-result']").reject do |product|
-      product.at_css("span.a-size-micro.a-color-secondary")&.text&.include?("Featured from Amazon brands")
+      # Ignorujemy "Featured from Amazon brands"
+      product.at_css("span.a-size-micro.a-color-secondary")&.text&.include?("Featured from Amazon brands") ||
+
+        # Ignorujemy produkty oznaczone jako "Sponsored"
+        product.at_css("span.a-color-secondary")&.text&.include?("Sponsored")
     end
 
     links.map { |product|
@@ -46,5 +50,6 @@ class AmazonCategory
       "https://www.amazon.com#{link}" if link
     }.compact.uniq
   end
+
 
 end
