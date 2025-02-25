@@ -66,5 +66,8 @@ Uruchamiając bota na slacku:
 3. Możesz korzystać z bota w aplikacji (jeśli wcześniej prawidłowo ją skonfigurowałeś).
 
 
+## Demonstracja działania programu znajduje się w pliku Demonstarcja.mkv
+
+
 ![chatbot](https://github.com/user-attachments/assets/a16391b2-8a46-4079-899c-50b627d92aca)
 
