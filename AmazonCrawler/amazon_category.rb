@@ -37,7 +37,14 @@ class AmazonCategory
   def product_links
     return [] unless @response
 
-    links = @response.css("div.s-main-slot div[data-component-type='s-search-result'] a.a-link-normal.s-no-outline")
-    links.map { |link| "https://www.amazon.com" + link["href"] }.uniq
+    links = @response.css("div.s-main-slot div[data-component-type='s-search-result']").reject do |product|
+      product.at_css("span.a-size-micro.a-color-secondary")&.text&.include?("Featured from Amazon brands")
+    end
+
+    links.map { |product|
+      link = product.at_css("a.a-link-normal.s-no-outline")&.[]("href")
+      "https://www.amazon.com#{link}" if link
+    }.compact.uniq
   end
+
 end
